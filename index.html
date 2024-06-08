@@ -1,0 +1,150 @@
+<!DOCTYPE  html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=
+, initial-scale=1.0">
+<title>Genuis_tutor</title>
+<style>
+    body{
+        background-color: black;
+        background-image: url(file:///C:/xampp/htdocs/Genuis_Hub/images/asdfg.bmp);
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #header{
+        background-color: red;
+        color: white;
+        text-align: center;
+    
+    }
+    .body{
+        background-color: gray;
+        color: black;
+      
+    }
+    .footer{
+        background-color: orangered;
+        color: ghostwhite;
+    }
+</style>
+</head>
+<body class="tutor ">
+    <div id="header">
+        <h1>Genuis Tutor </h1>
+    </div >
+    <nav class="toolbar">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+    <div class="body">
+        <artiicle>
+            <p>This is Genuis_tuor v.1.0 . the tutor that will help you with your studies and others . So please begin as you have already signed into your account(I presume?) . Select from one of the buttons
+                the one which you will help you in your studies that is if you belong in the language column click on the language button or if you want other subjects choose the non-language subjects but if all , click the full button indicating you will do every single subjects or both language and non-language subjects helping with our sudies , If the french students are thinking about the ppt file , it will be translated very soon once the french content begins. 
+            </p>
+        </artiicle>
+        <menu type="context">
+ <li><form action="">
+    <input type="checkbox" role="checkbox" name="Languages"></li>
+    <button type="submit" value="submit">language</button>
+ </form>
+<form action="">
+    <li><input type="checkbox" name="non-language" id="non-language">
+    <button type="submit">non-lang.</button></li>
+</form>
+<form action="">
+<li><input type="checkbox" name="all" id="all">
+    <button type="submit">all</button></li>
+<!-- forms for  language,non-language and all subjects -->
+  
+ </form>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <img src="images/animated/1.jpg" width="99%" >
+                </div>
+                <div class="mySlides fade">
+                <img src="images/animated/2.jpg" width="99%">
+                </div>
+                <div class="mySlides fade">
+                <img src="images/animated/3.jpg" width="99%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/4.jpg " width="99%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/5.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/6.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/7.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/8.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/9.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/10.jpg" width="99%"> 
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/animated/11.jpg" width="99%"> 
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                                
+                </div>
+                <script>
+                    
+                    var slideIndex = 0;
+                    showSlides();
+                
+                    function showSlides() {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1}    
+                      slides[slideIndex-1].style.display = "block";  
+                      setTimeout(showSlides,1500); // Change image every  second
+                    }
+                </script>
+            
+    </div>
+    <div class="footer">
+        <footer>
+            <p>
+                <h1> Genuis_tutor&trade;</h1>
+            </p>
+            <p>
+                <h2>
+                    <marquee>&map;;The number one tutors</marquee>
+                </h2>
+            </p>
+        </footer>
+    </div>

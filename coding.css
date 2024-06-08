@@ -1,0 +1,11 @@
+h1{
+	color:blue;
+     font-size:16px;
+     font-family: monospace;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: underline;
+     line-height: 5px;
+     text-transform: lowercase;
+     letter-spacing: 4px;
+}
